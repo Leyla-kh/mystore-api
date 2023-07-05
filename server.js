@@ -8,7 +8,7 @@ const cookieParser = require("cookie-parser");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const corsOptions = require("./config/corsOptions");
-const productRoute = require("./routes/product");
+const productRoute = require("./routes/Product");
 const categoryRoute = require("./routes/category");
 const PORT = process.env.PORT || 3500;
 
